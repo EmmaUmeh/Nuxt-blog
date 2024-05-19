@@ -1,0 +1,120 @@
+{
+  "posts": [
+
+    {
+      "id": "bbb6",
+      "title": "How To Implement Authentication in a Nuxt.js App",
+      "content": "In this tutorial, you’ll implement authentication in a Nuxt.js app using the Auth module.\n\nFor the purpose of this tutorial, you’ll be using JWT for authentication.\n\nBelow is a quick demo of what you’ll be building in this tutorial:"
+    }
+  ],
+  "users": [
+    {
+      "id": "245c",
+      "name": "emma",
+      "email": "emmachinemerem04@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "4be4",
+      "name": "fola",
+      "email": "emzra@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "1609",
+      "name": "emzra",
+      "email": "emzra@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "2f1e",
+      "name": "era",
+      "email": "era@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "dafa",
+      "name": "emx",
+      "email": "emx@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "6320",
+      "name": "for",
+      "email": "for@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "eac9",
+      "name": "dhi",
+      "email": "dhi@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "c0ec",
+      "name": "emc",
+      "email": "emc@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "7121",
+      "name": "emi",
+      "email": "emi@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "2681",
+      "name": "ema",
+      "email": "ema@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "cb4d",
+      "name": "emad",
+      "email": "emad@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "bb07",
+      "name": "eg",
+      "email": "eg@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "b36a",
+      "name": "ema",
+      "email": "emmachinemerem04@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "468d",
+      "name": "er",
+      "email": "emmachinemerem04@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "2c3c",
+      "name": "emma",
+      "email": "emm@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "5ace",
+      "name": "emg",
+      "email": "emg@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "8cde",
+      "name": "rola",
+      "email": "rola@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "6968",
+      "name": "akpan",
+      "email": "akpan@gmail.com",
+      "password": "1234"
+    }
+  ]
+}
