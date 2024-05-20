@@ -1,6 +1,5 @@
 {
   "posts": [
-
     {
       "id": "bbb6",
       "title": "How To Implement Authentication in a Nuxt.js App",
@@ -113,6 +112,12 @@
     {
       "id": "6968",
       "name": "akpan",
+      "email": "akpan@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "9ac8",
+      "name": "emmachiko",
       "email": "akpan@gmail.com",
       "password": "1234"
     }

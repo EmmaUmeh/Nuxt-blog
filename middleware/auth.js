@@ -14,13 +14,13 @@
 // }
 
 // Temporarily disable middleware
-// export default function ({ store, redirect, route }) {
-//   console.log('Disabled middleware');
-//   return true;
-// }
-
-export default function ({ store, redirect }) {
-  if (store.state.auth.loggedIn) {
-    return redirect('/')
-  }
+export default function ({ store, redirect, route }) {
+  console.log('Disabled middleware');
+  return true;
 }
+
+// export default function ({ store, redirect }) {
+//   if (store.state.auth.loggedIn) {
+//     return redirect('/')
+//   }
+// }
