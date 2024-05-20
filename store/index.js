@@ -109,6 +109,24 @@ export const actions = {
       throw error;
     }
   },
+
+  async confirmDelete(postId) {
+    try {
+      const response = await fetch(`http://localhost:3000/posts/${postId}`, { method: 'DELETE' });
+      if (response.ok) {
+        // Successfully deleted the post
+        // Close the modal
+        this.toggleModal();
+
+        // Optionally, refresh the list of posts
+        this.fetchPosts(); // Make sure you define this method to refetch posts
+      } else {
+        console.error('Failed to delete post');
+      }
+    } catch (error) {
+      console.error('Error deleting post:', error);
+    }
+  },
   
   async fetchPostDetails({ commit }, postId) {
     try {
@@ -131,6 +149,9 @@ export const actions = {
         commit('setPostDetails', postDetails);
       }
     }
+  },
+  removePost(state, postId) {
+    state.posts = state.posts.filter(post => post.id!== postId);
   },
 
   initAuthState({ commit }) {
