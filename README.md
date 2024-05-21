@@ -39,7 +39,7 @@ Run `npm install `
 
 `   npx create-nuxt-app blog-app   `
 
-1.  During the setup process, select Tailwind CSS as your preferred CSS framework.
+   *  During the setup process, select Tailwind CSS as your preferred CSS framework.
     
 
 ### Step 4: Install Json-webserver
