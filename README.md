@@ -19,7 +19,16 @@ Prerequisites
 Getting Started
 ---------------
 
-### Step 1: Initialize a New Nuxt Project
+### Step 1: Clone The Repo
+
+`   git clone https://github.com/EmmaUmeh/Nuxt-blog.git `
+
+### Step 2: Install dependencies
+
+Run `npm install `
+
+
+### Step 3: Initialize a New Nuxt Project
 
 1.  Open your terminal or command prompt.
     
@@ -30,10 +39,10 @@ Getting Started
 
 `   npx create-nuxt-app blog-app   `
 
-1.  During the setup process, select Tailwind CSS as your preferred CSS framework.
+   *  During the setup process, select Tailwind CSS as your preferred CSS framework.
     
 
-### Step 2: Install Json-webserver
+### Step 4: Install Json-webserver
 
 *   Install globally using **npm install -g json-server**.
     
@@ -44,7 +53,7 @@ Getting Started
 
 `   json-server --watch db.json   `
 
-### Step 3: Explore the Project Structure
+### Step 4: Explore the Project Structure
 
 Upon initialization, your project will have a structured layout conducive to development. Key directories include:
 
@@ -57,7 +66,7 @@ Upon initialization, your project will have a structured layout conducive to dev
 *   middleware: Handles authentication and other cross-page concerns.
     
 
-### Step 4: Running the Application
+### Step 5: Running the Application
 
 To launch the development server and view your application, execute:
 
